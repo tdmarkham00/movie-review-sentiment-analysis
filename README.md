@@ -9,13 +9,13 @@ Analyzing movie reviews using various models to predict whether or not the revie
 [Data](#Data)
 
 ## Contents
-* requirements.txt file containing Python libraries used in the project
-* models.ipynb prototyping notebook used for testing various models for best RMSE on test data. Experimentation included using combinations of principal component analysis with regularized regression and k-NN methods.
-* final_model.py script containing final model determined in prototyping
-* Predictions.csv file containing predictions on the test data
+* requirements.txt -- file containing Python libraries used in the project
+* stopwords.txt -- file containing list of stopwords used for vectorizing movie reviews
+* sentiment_analysis.ipynb -- prototyping notebook used for testing various models for best accuracy, F1, and AUC on test data. Experimentation included Naive Bayes, Logistic Regression, and k-NN methods.
+
 
 ## Installation
 Refer to requirements.txt for required libraries.
 
 ## Data
-The Ames, Iowa housing data is a popular dataset found on [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data). Descriptions for the data are found there. 
+The “moviereviews.tsv” dataset is a subset of movie reviews from a larger dataset of 25,000 movie reviews (see ai.stanford.edu/ amaas/data/sentiment).
