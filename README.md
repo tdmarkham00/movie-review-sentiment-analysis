@@ -18,4 +18,4 @@ Analyzing movie reviews using various models to predict whether or not the revie
 Refer to requirements.txt for required libraries.
 
 ## Data
-The “utah_fires.csv” dataset can be found [here](https://github.com/esnt/Data/blob/main/Fires/utah_fires.csv). The data contains information regarding the size, location, and date of the fire discovery.
+The “moviereviews.tsv” dataset is a subset of movie reviews from a larger dataset of 25,000 movie reviews (see ai.stanford.edu/ amaas/data/sentiment).
